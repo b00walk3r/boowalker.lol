@@ -7,7 +7,7 @@ boowalker.lol is an aesthetic, fast and simple static personal website (in my op
 ## features
 
 - autoplay video
-- play video sound onclick
+- play/stop video sound onclick
 - display last.fm activity
 - mobile compatible
 - display last update date
