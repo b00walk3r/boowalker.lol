@@ -1,0 +1,223 @@
+.scrollable-content {
+    height: 150px;
+  }
+  
+  .scrollable-content::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+ body {
+    background: black;
+    color: #fff;
+    font-family: "Dongle", sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+#loadingScreen {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-text {
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  top: 70%;
+  font-size: 20px;
+  font-weight: bold;
+  background: radial-gradient(
+    circle at 100%,
+    #575757,
+    #a1a1a1 50%,
+    #444444 75%,
+    #ffffff 75%
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animatedTextGradient 3s linear infinite;
+}
+
+.loading-link {
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  top: 75%;
+  font-size: 20px;
+  left: 45%;
+  font-weight: bold;
+  background: radial-gradient(
+    circle at 100%,
+    #575757,
+    #a1a1a1 50%,
+    #444444 75%,
+    #ffffff 75%
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animatedTextGradient 3s linear infinite;
+}
+
+.loading-link2 {
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  top: 75%;
+  right: 45%;
+  font-size: 20px;
+  font-weight: bold;
+  background: radial-gradient(
+    circle at 100%,
+    #ff2eb9be,
+    #ff2eb96b 50%,
+    #ff2eb9 75%,
+    #ff2eb9 75%
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animatedTextGradient 3s linear infinite;
+}
+
+#fentanyl {
+  display: none;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  background: radial-gradient(
+    circle at 100%,
+    #575757,
+    #a1a1a1 50%,
+    #444444 75%,
+    #ffffff 75%
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animatedTextGradient 3s linear infinite;
+}
+
+#lastupdate {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  background: radial-gradient(
+    circle at 100%,
+    #575757,
+    #a1a1a1 50%,
+    #444444 75%,
+    #ffffff 75%
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animatedTextGradient 3s linear infinite;
+}
+
+@keyframes animatedTextGradient {
+  to {
+    background-position: 200% center;
+  }
+}
+#myVideo {
+  position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -2;
+	filter: blur(2px) brightness(20%);
+	pointer-events: none;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    max-width: 20%;
+    max-height: 20%;
+    border-radius:10%;
+    opacity: 100%;
+  }
+
+.profile-name {
+      text-align: center;
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.links {
+      font-family: "Jacquard 24", system-ui;
+      letter-spacing: 10px;
+      font-size: 30px;
+      font-weight: 400;
+      font-style: normal;
+      text-align: center;
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid white;
+      border-width: 2px;
+      width: 250px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 40px;
+      border-style: dotted;
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 1s; 
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.spotify {
+  text-align: center;
+  height: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.links:hover {
+    color: #ff00d4;
+    background: #fff;
+}

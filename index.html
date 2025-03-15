@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" onclick="toggleMute()">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boo</title>
+    <meta property="og:title" content="boowalker.lol">
+    <meta property="og:description" content="''est. 2021''">
+    <meta name=”keywords” content="boo, boowalker, boo walker" />
+    <meta property="og:image" content="https://boowalker.lol/medias/avatar4.gif">
+    <meta name="theme-color" content="000000">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Jacquard+24&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="medias/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="medias/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="medias/favicon-16x16.png">
+    <link rel="manifest" href="medias/site.webmanifest">
+</head>
+<script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+<div id="loadingScreen">
+    <img src="medias/avatar4.gif" alt="glock" />
+    <div class="loading-text">loading..</div>
+</div>
+<body class="scrollable-content">
+    <div class="avatar">
+      <img class="profile-picture" src="medias/avatar4.gif" alt="">
+      <video autoplay playsinline muted loop id="myVideo"> 
+          <source src="medias/video.mp4" type="video/mp4"> 
+        </video> 
+    </div>
+    <div style="text-align: center;font-size: 15px;font-weight: bold;">
+    <div id="top-text">click anywhere to play/stop sound</div>
+    </div>
+        <div class="profile-name">@<span class="txt-type" data-wait="1000" data-words='["boowalker", "certified lover"]'></span></div>
+            <a href="https://open.spotify.com/user/503nkiw3jba6igbjvrva9axwe?si=6684d89db3a740dd" target="_blank" class="links">spotify</a>
+            <a href="https://steamcommunity.com/id/b00walk3r/" target="_blank" class="links">steam</a>
+            <a href="https://discord.com/users/850540377957203968" target="_blank" class="links">discord</a>
+            <a href="https://nnstomp.club" target="_blank" class="links">nnstomp</a>
+            <div class="spotify">
+                <i class="fa-brands fa-spotify fa-fade"></i><span id="track" ></span><span id="artist"></span><span id="date"></span>
+                </div>
+        <div class="bottom-text">est.2021</div>
+        <div id = "lastupdate"></div>
+        <a href="https://fentanyl.host" target="_blank" id="fentanyl">fentanyl.host</a>
+        
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+ <script src="scripts/script.js"></script> 
+<script src="scripts/script2.js"></script>
+<script src="scripts/script4.js"></script>
+<script src="scripts/script5.js"></script>
+<script src="scripts/script6.js"></script>
+<script>
+    let vid = document.getElementById("myVideo");
+    vid.volume = 0.1;
+</script>
+<script>
+    var date = document.lastModified;
+    document.getElementById("lastupdate").innerHTML = "last update: " + date;
+ </script>
+</html>
