@@ -1,7 +1,7 @@
 
 # info
 
-boowalker.lol is an aesthetic, fast and simple static personal website (in my opinion) .
+[boowalker.lol](https://boowalker.lol) is an aesthetic, fast and simple static personal website (in my opinion) .
 
 
 ## features
